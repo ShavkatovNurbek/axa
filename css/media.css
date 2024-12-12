@@ -1,0 +1,117 @@
+@media (max-width: 1199.98px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .design_row {
+        grid-template-columns: 1fr; 
+    }
+
+    .design_col {
+        margin: 0 auto;
+    }
+
+    .productrow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .productcol {
+        margin: 0 auto;
+    }
+
+    .teamrow {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .teamrow {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .righthead {
+        margin-right: 40px;
+    }
+
+    .officeh1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .head {
+        justify-content: space-around;
+        height: 50px;
+    }
+
+    .righthead {
+        margin-right: 10px;
+    }
+
+    .lefthead {
+        display: none;
+    }
+
+    .productrow {
+        grid-template-columns: 1fr;
+    }
+
+    .teamrow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .desk {
+        margin-top: 50px;
+    }
+
+    .desk_h1 {
+        font-size: 35px;
+    }
+
+    .designh1 {
+        font-size: 35px;
+    } 
+
+    .wayh1 {
+        font-size: 25px; 
+    }
+
+    .wayp {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .officeh1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .teamh1 {
+        font-size: 25px; 
+    }
+
+    .teamp {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .foota {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
